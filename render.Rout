@@ -1,0 +1,96 @@
+
+R version 3.4.4 (2018-03-15) -- "Someone to Lean On"
+Copyright (C) 2018 The R Foundation for Statistical Computing
+Platform: x86_64-pc-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> library(rmarkdown)
+> render("draft.Rmd")
+
+
+processing file: draft.Rmd
+  |                                                                         |                                                                 |   0%  |                                                                         |....                                                             |   7%
+   inline R code fragments
+
+  |                                                                         |.........                                                        |  13%
+label: unnamed-chunk-1 (with options) 
+List of 2
+ $ eval  : logi FALSE
+ $ engine: chr "Rcpp"
+
+  |                                                                         |.............                                                    |  20%
+  ordinary text without R code
+
+  |                                                                         |.................                                                |  27%
+label: unnamed-chunk-2 (with options) 
+List of 2
+ $ eval  : logi FALSE
+ $ engine: chr "Rcpp"
+
+  |                                                                         |......................                                           |  33%
+  ordinary text without R code
+
+  |                                                                         |..........................                                       |  40%
+label: unnamed-chunk-3 (with options) 
+List of 2
+ $ eval  : logi FALSE
+ $ engine: chr "Rcpp"
+
+  |                                                                         |..............................                                   |  47%
+  ordinary text without R code
+
+  |                                                                         |...................................                              |  53%
+label: unnamed-chunk-4 (with options) 
+List of 2
+ $ eval  : logi FALSE
+ $ engine: chr "Rcpp"
+
+  |                                                                         |.......................................                          |  60%
+  ordinary text without R code
+
+  |                                                                         |...........................................                      |  67%
+label: unnamed-chunk-5 (with options) 
+List of 2
+ $ eval  : logi FALSE
+ $ engine: chr "Rcpp"
+
+  |                                                                         |................................................                 |  73%
+  ordinary text without R code
+
+  |                                                                         |....................................................             |  80%
+label: unnamed-chunk-6 (with options) 
+List of 2
+ $ eval  : logi FALSE
+ $ engine: chr "Rcpp"
+
+  |                                                                         |........................................................         |  87%
+  ordinary text without R code
+
+  |                                                                         |.............................................................    |  93%
+label: unnamed-chunk-7 (with options) 
+List of 2
+ $ eval  : logi FALSE
+ $ engine: chr "Rcpp"
+
+  |                                                                         |.................................................................| 100%
+  ordinary text without R code
+
+
+output file: draft.knit.md
+
+/home/brough/anaconda3/bin/pandoc +RTS -K512m -RTS draft.utf8.md --to latex --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output draft.tex --template svm-latex-ms.tex --highlight-style tango --pdf-engine pdflatex --natbib 
+! LaTeX Error: Environment align undefined.
+
+Error: Failed to compile draft.tex. See https://yihui.name/tinytex/r/#debugging for debugging tips. See draft.log for more info.
+Execution halted
